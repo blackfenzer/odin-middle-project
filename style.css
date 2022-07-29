@@ -1,0 +1,132 @@
+* {
+    font-size: 18px;
+}
+.container{
+    margin: 0;
+    border: 2px red solid;
+}
+button {
+    border-radius: 25px;
+}
+
+header, .first{
+    margin: 0;
+    padding: 0 250px;
+    background-color: #1F2937;
+    color: white;
+}
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    padding-top: 16px;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 16px;
+}
+li {
+    list-style-type: none;
+}
+.first {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    padding-bottom: 100px;
+}
+.left {
+    display: flex;
+    flex-direction: column;
+}
+.left div div {
+    line-height: 30px;
+}
+.first img {
+    max-width: 400px;
+}
+#content1 {
+    font-size: 24px;
+}
+button {
+    background-color: #3882F6;
+    color: white;
+}
+
+.second, .con-img {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: black;
+    gap: 16px;
+}
+.box p {
+    text-align: center;
+}
+.con-img {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.box {
+    flex: 1;
+
+}
+.box img{
+    object-fit: cover;
+    width: 200px;
+    height: 150px;
+}
+
+.third {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    background-color: #E5E7EB;
+    padding: 20px;
+}
+.third blockquote {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+}
+.third p{
+    align-self: flex-end;
+
+}
+.fourth {
+    background-color: #3882F6;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 36px;
+    margin: 100px 200px;
+    border-radius: 25px;
+}
+.fourth button{
+
+    background-color: #3882F6;
+    border-color: white;
+}
+
+footer {
+    margin: 0;
+    padding: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    color: white;
+
+}
